@@ -1,0 +1,13 @@
+{
+  "inbounds": [{
+    "port": 39986, // 服务器监听端口，必须和上面的一样
+    "protocol": "vmess",
+    "settings": {
+      "clients": [{ "id": "fuckyall999" }]
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
+}
